@@ -1,4 +1,4 @@
-/*! xlsx.js v0.8.3
+/*! xlsx.js v0.8.4
  *
  * (C) 2013-2015 SheetJS -- http://sheetjs.com
  * */
@@ -6,9 +6,9 @@
 
 ;(function (root, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(["exports", "jszip"], factory);
+        define(["exports", "jzip"], factory);
     } else if (typeof exports === 'object' && typeof exports.nodeName !== 'string') {
-        module.exports = factory(exports, require('jszip'));
+        module.exports = factory(exports, require('jzip'));
     } else {
         factory(root, root.JSZip);
     }
