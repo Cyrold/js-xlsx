@@ -17,3 +17,5 @@ tmp
 *.htm
 *.html
 *.sheetjs
+.idea
+*.iml

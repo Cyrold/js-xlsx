@@ -1,8 +1,8 @@
 {
-  "name": "js-xls",
-  "homepage": "https://github.com/SheetJS/js-xls",
-  "main": "dist/xls.js",
-  "version": "0.7.5",
+  "name": "xlsx-js",
+  "homepage": "https://github.com/clarketm/js-xls",
+  "main": "./xls.js",
+  "version": "0.8.1",
   "ignore": [
         "bin",
         "bits",
