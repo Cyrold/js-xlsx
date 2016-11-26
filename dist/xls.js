@@ -1,4 +1,4 @@
-/*! xlsx.js v0.8.2
+/*! xlsx.js v0.8.3
  *
  * (C) 2013-2015 SheetJS -- http://sheetjs.com
  * */
