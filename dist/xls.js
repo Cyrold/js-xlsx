@@ -1,4 +1,4 @@
-/*! xlsx.js v0.8.1
+/*! xlsx.js v0.8.2
  *
  * (C) 2013-2015 SheetJS -- http://sheetjs.com
  * */
@@ -15,7 +15,7 @@
 }(this, function (exports, JSZip) {
         var XLSX = {};
 
-        XLSX.version = '0.8.1';
+        XLSX.version = '0.8.2';
         var current_codepage = 1200, current_cptable;
         if (typeof module !== "undefined" && typeof require !== 'undefined') {
             if (typeof cptable === 'undefined') cptable = require('./dist/cpexcel');

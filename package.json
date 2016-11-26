@@ -1,6 +1,6 @@
 {
   "name": "xlsx-js",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "author": "sheetjs",
   "description": "Excel 5.0/95 and 97-2004 spreadsheet (BIFF5 XLS / BIFF8 XLS / XML 2003) parser",
   "keywords": [
