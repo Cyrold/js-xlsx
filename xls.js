@@ -1,4 +1,4 @@
-/*! xlsx-js.js v0.8.6
+/*! xlsx-js.js v0.8.7
  *
  * (C) 2013-2015 SheetJS -- http://sheetjs.com
  * */
@@ -15,10 +15,10 @@
 }(this, function (exports, JSZip) {
         var XLSX = {};
 
-        XLSX.version = '0.8.6';
+        XLSX.version = '0.8.7';
         var current_codepage = 1200, current_cptable;
         if (typeof module !== "undefined" && typeof require !== 'undefined') {
-            if (typeof cptable === 'undefined') cptable = require('./dist/cpexcel');
+            if (typeof cptable === 'undefined') cptable = require('./cpexcel');
             current_cptable = cptable[current_codepage];
         }
         function reset_cp() {
