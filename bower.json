@@ -2,7 +2,7 @@
   "name": "xlsx-js",
   "homepage": "https://github.com/clarketm/js-xlsx",
   "main": "./xlsx.js",
-  "version": "0.8.7",
+  "version": "0.8.8",
   "dependencies": {
     "jzip": "^1.0.0"
   },
